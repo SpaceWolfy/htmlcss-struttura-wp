@@ -24,10 +24,13 @@
 
 .float-container {
   background-color: #0086ff;
+  margin-bottom: 8px;
+}
+
+.fixediv::after {
   content: "";
   display: table;
   clear: both;
-  margin-bottom: 8px;
 }
 
 footer {
