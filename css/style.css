@@ -17,6 +17,44 @@
 }
 
 .article {
-  height: 300px;
+  height: 350px;
   background-color: #e1d67a;
+  margin-bottom: 20px;
+}
+
+.float-container {
+  background-color: #0086ff;
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 8px;
+}
+
+footer {
+  height: 35px;
+  background-color: #8801fe;
+  margin-bottom: 20px;
+}
+
+.float-container > header {
+  height: 60px;
+  background-color: #abcfe7;
+  width: 800px;
+}
+
+.fixediv div {
+  float: left;
+  background-color: #abcfe7;
+  height: 350px;
+  width: 180px;
+  margin: 20px 0;
+}
+
+.fixediv div:nth-child(2) {
+  width: 400px;
+  margin: 20px 20px;
+}
+
+.fixediv div:last-child {
+  float: right;
 }
